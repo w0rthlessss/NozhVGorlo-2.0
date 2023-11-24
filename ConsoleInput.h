@@ -2,8 +2,13 @@
 #include <iostream>
 #include <string>
 #include <limits>
-
 using namespace std;
+
+/*
+	Файл необходимый для ввода значений с консоли, таких как:
+	пункты меню, значения массива, ответы пользователя в формате (y / n),
+	путь к файлу.
+*/
 
 enum InputMenu{consoleInput = 1, fileInput, randomInput, exitApp};
 

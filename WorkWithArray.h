@@ -6,6 +6,11 @@
 #include <cerrno>
 #include <filesystem>
 
+/*
+	Базовый абстрактный класс для работы с массивом,
+	а также для взаимодействия с файлами.
+*/
+
 class WorkWithArray {
 protected:
 	fstream file;
